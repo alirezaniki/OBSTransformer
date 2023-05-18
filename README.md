@@ -1,2 +1,5 @@
-# OBSTransformer
-A deep-learning seismic phase picker for Ocean Bottom Seismometer data
+<div id="header" align="center">
+  <h1>
+    OBSTransformer
+  </h1>
+</div>
