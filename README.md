@@ -1,10 +1,6 @@
 <div id="header" align="center">
   <img src="https://drive.google.com/uc?id=1hRSnfqbzKX2kneOxO00L609oABGPtIhc" width="800"/>
 </div>
-<div id="header" align="center">
-  ![Galaxy Toolshed - Downloads](https://img.shields.io/galaxytoolshed/downloads/OBSTransformer/alirezaniki)(https://github.com/anuraghazra/github-readme-stats)
-</div>
-
 
 ---
 Discription
