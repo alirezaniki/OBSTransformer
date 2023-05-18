@@ -1,0 +1,26 @@
+================== Overal Info ==============================
+date of report: 2023-05-18 17:55:00.327330
+input_hdf5: ./dataset_processed_hdfs/02.hdf5
+input_csv: ./dataset_processed_hdfs/02.csv
+input_model: ./models/OBSTransformer/OBSTransformer.h5
+output_dir: /storage/Github/output/OBSTransformer/02_outputs
+================== Prediction Parameters =======================
+finished the prediction in:  0 hours and 0 minutes and 1.18 seconds 
+detected: 3 events.
+writting_probability_outputs: False
+loss_types: ['binary_crossentropy', 'binary_crossentropy', 'binary_crossentropy']
+loss_weights: [0.02, 0.4, 0.58]
+batch_size: 500
+================== Other Parameters =========================
+normalization_mode: std
+estimate uncertainty: False
+number of Monte Carlo sampling: 5
+detection_threshold: 0.3
+P_threshold: 0.1
+S_threshold: 0.1
+number_of_plots: 50
+use_multiprocessing: True
+gpuid: None
+gpu_limit: None
+keepPS: False
+spLimit: 60 seconds
