@@ -1,6 +1,4 @@
-
-![Github](https://github.com/alirezaniki/OBSTransformer/assets/24492517/00487ff3-4f84-48d2-ac0e-595f38621839)
-
+![Github](https://github.com/alirezaniki/OBSTransformer/assets/24492517/3676bc18-663c-4bc8-97ab-fbeea89c3273)
 ---
 Discription
 --
