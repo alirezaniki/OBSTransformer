@@ -19,7 +19,7 @@ A Quick Instruction
 --
 
   1. Create a text file including instrument information (stations.dat)
-  2. Build the required station-metadata file using the provided shell code (build_json.sh; needs two addresses)
+  2. Build the required station-metadata file using the provided shell script (build_json.sh; needs two addresses)
   3. Prepare the dataset directory (dataset/)
   4. Run the detection.py code (python detection.py dataset/)
 
@@ -27,7 +27,9 @@ A Quick Instruction
 Links
 --
 
-**Paper list**: will be added shortly ...
+**Paper list**
+
+will be added shortly ...
 
 ---
 Reference
