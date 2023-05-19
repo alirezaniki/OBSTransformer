@@ -1,4 +1,6 @@
 ![Github](https://github.com/alirezaniki/OBSTransformer/assets/24492517/3676bc18-663c-4bc8-97ab-fbeea89c3273)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Falirezaniki%2FOBSTransformer&labelColor=%2337d67a&countColor=%23263759&style=plastic)
+
 ---
 Discription
 --
