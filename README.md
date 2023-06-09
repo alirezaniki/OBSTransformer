@@ -44,4 +44,5 @@ Links
 Reference
 --
 
-Will be added shortly ...
+OBSTransformer: A Deep-Learning Seismic Phase Picker for OBS Data Using Automated Labelling and Transfer Learning. https://doi.org/10.48550/arXiv.2306.04753
+
