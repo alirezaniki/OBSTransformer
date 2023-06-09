@@ -44,5 +44,15 @@ Links
 Reference
 --
 
-OBSTransformer: A Deep-Learning Seismic Phase Picker for OBS Data Using Automated Labelling and Transfer Learning. https://doi.org/10.48550/arXiv.2306.04753
+Niksejel, A. & Zhang, M., 2023. OBSTransformer: A Deep-Learning Seismic Phase Picker for OBS Data Using Automated Labelling and Transfer Learning. https://doi.org/10.48550/arXiv.2306.04753
 
+```
+@misc{niksejel2023obstransformer,
+      title={OBSTransformer: A Deep-Learning Seismic Phase Picker for OBS Data Using Automated Labelling and Transfer Learning}, 
+      author={Alireza Niksejel and Miao Zhang},
+      year={2023},
+      eprint={2306.04753},
+      archivePrefix={arXiv},
+      primaryClass={physics.geo-ph}
+}
+```
