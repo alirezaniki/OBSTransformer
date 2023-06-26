@@ -20,7 +20,7 @@ station_info="/media/dalquake/T7/3k_OBS_validation_dataset/Github/stations.dat"
 [[ -d json ]] && rm -r json/* 2> /dev/null || mkdir json
 
 cd $data_dir
-n=`grep -c '^[1-9]' $station_info`
+n=`grep -cE '^[1-9]|^-' $station_info`
 i=1
 for sta in `find ./ -type f -name "*mseed" | cut -f 3 -d / | cut -f 2 -d . | sort | uniq`; do
 	net=`grep "$sta" $station_info | awk '{print $3}' | head -1`
