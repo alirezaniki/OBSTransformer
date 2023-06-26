@@ -3,14 +3,15 @@
 # Alrieza Niksejel (alireza.niksejel@dal.ca)
 
 # provides the required station_list.json file
-# station info file needs to follow below format:
-# longitude(deg) latiude(deg) network station channel depth(km)
+# station info file needs to follow the below format:
+# longitude(deg) latitude(deg) network station channel depth(km)
 
 
 
-# full path to station info file
+
+# Full path to the dataset
 data_dir="/media/dalquake/T7/3k_OBS_validation_dataset/Github/dataset"	
-# full path to dataset		
+# Full path to the station info file		
 station_info="/media/dalquake/T7/3k_OBS_validation_dataset/Github/stations.dat"	
 
 
