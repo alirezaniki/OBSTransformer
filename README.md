@@ -38,6 +38,8 @@ To start with (anaconda):
 ```
 conda create -n obst python=3.7
 conda activate obst
+pip install --upgrade pip
+pip install obspy
 pip install EQTransformer
 ```
 You may encounter version conflicts between packages, such as numpy or protobuf. Try to install the suggested versions to eliminate the issue.
