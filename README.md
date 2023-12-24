@@ -7,7 +7,7 @@ Discription
 
 **OBSTransformer** is a transfer-learned seismic phase picker for Ocean Bottom Seismometer (OBS) data adopted from the EqTransformer model. 
 **OBSTransformer** has been trained on an auto-labeled tectonically inclusive OBS dataset comprising ~36k earthquake and 25k noise samples.
-You can download the training data via [this link](https://drive.google.com/file/d/1J2LtLA067S6FeyS-lD1fEquBLEVVa_vC/view?usp=sharing).
+You can download the training data via [this link](https://drive.google.com/uc?id=1J2LtLA067S6FeyS-lD1fEquBLEVVa_vC&export=download).
 
 ---
 Installation
