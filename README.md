@@ -25,7 +25,7 @@ for item in d['data']:
   plt.plot(dd)
   plt.show()
 ```
-https://drive.google.com/file/d/1hjblXA1DuNFhMdojJD9-qYXQdchgCSNB/view?usp=sharing
+
 ---
 Installation
 --
@@ -49,9 +49,9 @@ Quick Instruction
 --
 
 
-  1. Create a text file including instrument information (stations.dat)
+  1. Create a text file including instrument information (see stations.dat)
   2. Build the required station metadata using the provided shell script (build_json.sh; needs two addresses)
-  3. Prepare the dataset directory (dataset/)
+  3. Prepare the dataset directory (see dataset/)
   4. Run the detection.py code (python detection.py dataset/)
 
 ---
