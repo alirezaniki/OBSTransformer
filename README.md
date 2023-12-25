@@ -2,19 +2,19 @@
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Falirezaniki%2FOBSTransformer&labelColor=%2337d67a&countColor=%23263759&style=plastic)
 
 ---
-Discription
+Description
 --
 
 **OBSTransformer** is a transfer-learned seismic phase picker for Ocean Bottom Seismometer data (OBS) adopted from the EqTransformer model. 
 **OBSTransformer** has been trained on an auto-labelled tectonically inclusive OBS dataset comprising ~36k earthquake and 25k noise samples.
 **OBSTransformer** is now integrated with the hands-free earthquake location workflow-[LOCFLOW](https://github.com/Dal-mzhang/LOC-FLOW).
-You can download the auto-labelled data via [this link](https://drive.google.com/uc?id=1J2LtLA067S6FeyS-lD1fEquBLEVVa_vC&export=download). Below
-snippet code demonstrates how to deal with the downloaded data:
+You can download the auto-labelled data and noise samples used for model training via [this link](https://drive.google.com/file/d/1hjblXA1DuNFhMdojJD9-qYXQdchgCSNB/view?usp=sharing). Below
+snippet code demonstrates how to deal with the dataset:
 ```
 import h5py as hp
 import matplotlib.pyplot as plt
 
-dataset = "OBSTransformer_training_data.hdf5"
+dataset = "OBST_training_data.hdf5"
 d = hp.File(dataset, 'r')
 for item in d['data']:
   if not item.endswith('EV'): continue 
@@ -25,7 +25,7 @@ for item in d['data']:
   plt.plot(dd)
   plt.show()
 ```
-
+https://drive.google.com/file/d/1hjblXA1DuNFhMdojJD9-qYXQdchgCSNB/view?usp=sharing
 ---
 Installation
 --
