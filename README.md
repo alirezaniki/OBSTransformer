@@ -60,5 +60,3 @@ Reference
 --
 
 Niksejel, A. & Zhang, M., 2024. OBSTransformer: A Deep-Learning Seismic Phase Picker for OBS Data Using Automated Labelling and Transfer Learning. Geophysical Journal International, ggae049, https://doi.org/10.1093/gji/ggae049.
-
-```
