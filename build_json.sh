@@ -21,7 +21,7 @@ pickhome=`pwd`
 cd $data_dir
 n=`grep -cE '^[1-9]|^-' $station_info`
 i=1
-for sta in `find ./ -type f -name "*mseed" | cut -f 3 -d / | cut -f 2 -d . | sort | uniq`; do
+for sta in `awk '{print $4}' $station_info | grep -v "^$" | sort | uniq`; do
 	net=`grep "$sta" $station_info | awk '{print $3}' | head -1`
 	cha=`grep "$sta" $station_info | awk '{print $5}' | head -1`
 	lat=`grep "$sta" $station_info | awk '{print $2}' | head -1`
