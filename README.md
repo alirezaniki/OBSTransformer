@@ -47,8 +47,7 @@ You may encounter version conflicts between packages, such as numpy or protobuf.
 ---
 Quick Instruction
 --
-
-
+  0. OBST works best on 3-20 Hz band-pass filtered data. Change the filtering band in "EQT_PATH/EQTransformer/core/mseed_predictor.py" and "EQT_PATH/EQTransformer/utils/hdf5_maker.py".
   1. Create a text file including instrument information (see stations.dat)
   2. Build the required station metadata using the provided shell script (build_json.sh; needs two addresses)
   3. Prepare the dataset directory (see dataset/)
